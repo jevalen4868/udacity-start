@@ -5,7 +5,7 @@
 #include <vector>
 #include <chrono>
 
-void workerFunction(int n)
+int workerFunction(int n)
 {
     // print system id of worker thread
     std::cout << "Worker thread id = " << std::this_thread::get_id() << std::endl;

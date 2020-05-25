@@ -1,6 +1,8 @@
 # Build folders
 *build*
 
+.idea
+
 # Prerequisites
 *.d
 
